@@ -195,6 +195,31 @@ a {
   color: var(--primary-color);
 }
 
+.contact-form, input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  text-align: center;
+}
+
+input[type=submit] {
+  background-color: #162146;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+
 @media all and (max-width: 750px){
   /* shared code */
 }
@@ -216,3 +241,5 @@ a {
     font-size: 22px;
   }
 }
+
+
