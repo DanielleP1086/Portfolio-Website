@@ -307,6 +307,26 @@ input[type=submit]:hover {
   opacity: 0.8;
 }
 
+.about_paragraph {
+  text-align: justify;
+  width: 700px;
+  height: 200px;
+  padding: 50px;
+  border: 1px clear;
+}
+
+.skills_experience {
+  text-align: center;
+  width: 700px;
+  height: 200px;
+  padding: 50px;
+  border: 1px clear;
+}
+
+.table_labels {
+  font-weight: bolder;
+}
+
 @media all and (max-width: 750px) {
   /* shared code */
 }
