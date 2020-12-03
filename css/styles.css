@@ -327,6 +327,12 @@ input[type=submit]:hover {
   font-weight: bolder;
 }
 
+.page-body__form-contact {
+    width: 350px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
 @media all and (max-width: 750px) {
   /* shared code */
 }
